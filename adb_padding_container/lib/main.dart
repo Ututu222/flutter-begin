@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 
 //https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e
 
+//Padding Widget of the Week
+//https://www.youtube.com/watch?v=oD5RtLhhubg&vl=en
+
 //To see what is happening in this app we need to start the dartdevtools
 //by going to View/Command Palette/Dart: Open DevTools.
 //Choose to open DevTools in the browser and click on Debug Paint to show
@@ -28,23 +31,16 @@ class MyApp extends StatelessWidget {
         ),
         body: Padding(
           padding: const EdgeInsets.all(10.0),
-          child: Column(
-            children: [
-              Expanded(
-                flex: 1,
-                child: Container(
-                  height: 400.0,
-                  width: 340.0,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.rectangle,
-                    color: Colors.amber,
-                  ),
-                  child: Image(
-                    image: AssetImage('images/bottle.jpg'),
-                  ),
-                ),
-              ),
-            ],
+          child: Container(
+            height: 400.0,
+            width: 340.0,
+            decoration: BoxDecoration(
+              shape: BoxShape.rectangle,
+              color: Colors.amber,
+            ),
+            child: Image(
+              image: AssetImage('images/bottle.jpg'),
+            ),
           ),
         ),
       ),

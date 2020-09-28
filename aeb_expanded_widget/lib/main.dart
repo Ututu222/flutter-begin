@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 
 //https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e
 
+//Expanded Widget of the Week
+//https://www.youtube.com/watch?v=_rnZaagadyo
+
 //To see what is happening in this app we need to start the dartdevtools
 //by going to View/Command Palette/Dart: Open DevTools.
 //Choose to open DevTools in the browser and click on Debug Paint to show
@@ -30,9 +33,9 @@ class MyApp extends StatelessWidget {
         body: Column(
           children: [
             Expanded(
-              flex: 0,
+              flex: 2,
               child: Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(20.0),
                 child: Container(
                   height: 100.0,
                   width: 100.0,
@@ -47,9 +50,9 @@ class MyApp extends StatelessWidget {
               ),
             ),
             Expanded(
-              flex: 0,
+              flex: 2,
               child: Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(10.0),
                 child: Container(
                   height: 100.0,
                   width: 100.0,

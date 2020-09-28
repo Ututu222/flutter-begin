@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 
 //https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e
 
+//Container Widget of the Week
+//https://www.youtube.com/watch?v=c1xLMaTUWCY&vl=en
+
 //To see what is happening in this app we need to start the dartdevtools
 //by going to View/Command Palette/Dart: Open DevTools.
 //Choose to open DevTools in the browser and click on Debug Paint to show
@@ -9,8 +12,6 @@ import 'package:flutter/material.dart';
 
 //We can use the padding and margin properties of the Container Widget
 //to apply padding and margin to the Container.
-//We can also use the Padding Widget wrapping the Container to apply
-//padding, but from the body of the Scaffolds perspective.
 
 // display an asset image
 // to change the launcher icon from the flutter icon
@@ -40,13 +41,13 @@ class MyApp extends StatelessWidget {
           height: 400.0,
           width: 340.0,
           //color: Colors.white,
-          //padding: EdgeInsets.fromLTRB(50, 240, 10, 50),
+          //padding: EdgeInsets.fromLTRB(50, 40, 10, 50),
           //padding: EdgeInsets.all(100.0),
-          //margin: EdgeInsets.fromLTRB(20.0, 20.0, 20.0, 20.0),
-          //margin: EdgeInsets.all(50.0),
+          //margin: EdgeInsets.fromLTRB(50.0, 40.0, 20.0, 20.0),
+          //margin: EdgeInsets.all(100.0),
           //margin: EdgeInsets.symmetric(vertical: 50.0, horizontal: 10.0),
           decoration: BoxDecoration(
-            shape: BoxShape.circle,
+            shape: BoxShape.rectangle,
             color: Colors.amber,
             border: Border.all(color: Colors.black, width: 3),
           ),
